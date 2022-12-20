@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="card">
+            <form>
+                <div>
+                    <label id="singletext">Name</label><br>
+                    <input type="text" name="name" id="textbox" placeholder="Enter your Name">
+                </div>
+                <div>
+                    <label id="singletext">Email</label><br>
+                    <input type="text" name="Email" id="textbox" placeholder="Enter your Email">
+                </div>
+                <div>
+                    <label id="singletext">Your Rating (Optional)</label><br>
+                    <input type="text" name="name" id="textbox" placeholder="1 - 10">
+                </div>
+                <div>
+                    <label id="singletext">What Programming level would you<br> descrive this site as?</label><br>
+                    <select id="textbox">
+                        <option>Select Programming Level</option>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                    </select>
+                </div>
+                <div>
+                    <label id="singletext">Overall, do you like the layout of this site?</label><br>
+                    <input type="radio" checked> <span>Definitely</span> <br>
+                    <input type="radio"><span> Mostly</span> <br>
+                    <input type="radio"><span> Somewhat</span> <br>
+                    <input type="radio"><span> Not at all</span>
+                </div>
+                <div>
+                    <label id="singletext">What do you think I could do better?<br> (Check all that apply)</label><br>
+                    <input type="checkbox" > <span>Site Layout</span> <br>
+                    <input type="checkbox"> <span>Mobile Accessibility</span> <br>
+                    <input type="checkbox"> <span>Handicapped Accessibility</span> <br>
+                    <input type="checkbox"> <span>Theme</span><br>
+                    <input type="checkbox"> <span>Spelling</span><br>
+                    <input type="checkbox"> <span>EVERTHING!!!</span><br>
+                    <input type="checkbox"> <span>NOTHING!!!</span><br>
+                    <input type="checkbox"> <span>Other</span>
+                </div>
+                <div>
+                    <label>Got anything to add? (Optional)</label><br>
+                    <textarea name="textarea"  cols="50" rows="5" placeholder="Additional comments or suggestions..."></textarea>
+                </div>
+                <div>
+                    <button>Submit</button>
+                </div>
+                <br>
+            </form>
+            
+        </div>
+    </div>
+    <br><br>
+</body>
+</html>
